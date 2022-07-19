@@ -1,0 +1,71 @@
+package az.developia.schoolsystem.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.validation.constraints.Size;
+
+@Entity
+public class Student {
+@Id
+@GeneratedValue(strategy = GenerationType.IDENTITY)
+private Integer id;
+@Size(min=2,max=10,message = "Name must be filled")
+private String name;
+private String surname;
+private Integer grade;
+private boolean paid;
+private Integer feesPaid;
+private Integer feesTotal;
+
+public Integer getFeesPaid() {
+	return feesPaid;
+}
+public void setFeesPaid(Integer feesPaid) {
+	this.feesPaid = feesPaid;
+}
+public Integer getFeesTotal() {
+	return feesTotal;
+}
+public void setFeesTotal(Integer feesTotal) {
+	this.feesTotal = feesTotal;
+}
+public boolean isPaid() {
+	return paid;
+}
+public void setPaid(boolean paid) {
+	this.paid = paid;
+}
+
+public void setGrade(Integer grade) {
+	this.grade = grade;
+}
+public Integer getId() {
+	return id;
+}
+public void setId(Integer id) {
+	this.id = id;
+}
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public String getSurname() {
+	return surname;
+}
+public void setSurname(String surname) {
+	this.surname = surname;
+}
+public int getGrade() {
+	return grade;
+}
+public void setGrade(int grade) {
+	this.grade = grade;
+}
+
+
+
+}
