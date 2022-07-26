@@ -8,6 +8,6 @@ import az.developia.schoolsystem.model.Test;
 
 public interface TestRepo extends JpaRepository<Test, Integer>{
 
-	 List<Test> findAllByCreatorUsername(String username);
+	List<Test> findAllByCreatorUsername(String name);
 
 }

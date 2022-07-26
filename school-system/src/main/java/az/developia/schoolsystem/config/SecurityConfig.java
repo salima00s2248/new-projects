@@ -20,10 +20,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	@Autowired
 	private DataSource dataSource;
-	@Bean
-	public PasswordEncoder passwordEncoder() {
-	    return PasswordEncoderFactories.createDelegatingPasswordEncoder();
-	}
+
 @Override
 protected void configure (HttpSecurity http) throws Exception{
 	http.csrf().disable().authorizeRequests().antMatchers(HttpMethod.OPTIONS,"/**").permitAll().antMatchers(HttpMethod.POST,"/users/**").permitAll().anyRequest().authenticated().and().httpBasic();

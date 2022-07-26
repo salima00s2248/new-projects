@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .Cart-Container{
+    width: 620px;
+       height: 59%;
+       top: 50%;
+       left: 50%;
+       margin-left: -150px;
+       margin-top: -100px;
+       background-color: #ffffff;
+       border-radius: 20px;
+       box-shadow: 0px 25px 40px #1687d933;
+       text-align: center;
+   }
+   
+   ul{
+
+    padding: 0;
+    display: block;
+    list-style-type: none;
+   
+   
+  }
+  .quiz{
+    padding: 4rem;
+    text-align: left;
+    font-size: 23px;
+  }
+  h2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+  }
+  h3{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+  }
+  ul{
+    list-style-type: none;
+    padding: 0;
+  }
+  ul li{
+    font-size: 1.6 rem;
+    margin: 1rem 0;
+  }
+  ul li label{
+    cursor: context-menu;
+  }  
+.btn{
+    position: absolute;
+    top:57%;
+    left: 41%;
+    width: 120px;
+}
+.green{
+    position: absolute;
+    top:57%;
+    right: 45%;
+    width: 120px;
+}
