@@ -19,15 +19,18 @@
 
 </head>
 <body>
-  
+  var i=0;
     <div class="Cart-Container" id="testdatas">
         <div class="quiz">
-         <!-- <h1>Timer</h1>
-         <div style="font-weight: bold" id="timer"></div> -->
-          <h2 id="question">Question Text</h2>
+          <div class="p" >Time left : <span id="timer"></span></div>
+    
+     
+       <h2 id="question">Question Text</h2>
+      
+        
           <ul>
             <li>
-              <input type="radio" name="answer" id="a_variant" class="answer">
+              <input type="radio" name="answer_a" id="a_variant" class="answer">
               <label for="a" id="a">Answer</label>
             </li>
     
@@ -47,19 +50,33 @@
             </li>
     
           </ul>
+         
         </div>
         <div class="container">
     
         
-            <button type="button" id="btn" class="btn btn-danger btn-lg active" onclick="history.back()"->Previous</button>
+            <button type="button" id="btn" class="btn btn-danger btn-lg active" onclick="previousload()"->Previous</button>
           
           </div>
           <div class="green">
     
         
-            <button type="button" id="green"  class="btn btn-success btn-lg active">Next</button>
+            <button type="button" id="green"   class="btn btn-success btn-lg active">Next</button>
           
           </div>    
+          <div class="submit">
+    
+        
+            <button type="button" id="submit"   class="btn btn-success btn-lg active">Submit</button>
+    
+            </button>
+          </div>   
+  
+
+         
+        
+          
+          </div>
     
 <script src="js/quiz.js"></script>
 </body>

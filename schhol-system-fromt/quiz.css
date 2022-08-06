@@ -8,7 +8,7 @@ body{
     align-items: center;
    }
    .Cart-Container{
-    width: 620px;
+    width: 630px;
        height: 59%;
        top: 50%;
        left: 50%;
@@ -31,6 +31,7 @@ body{
   .quiz{
     padding: 4rem;
     text-align: left;
+   margin-top: 31px;
     font-size: 23px;
   }
   h2{
@@ -56,13 +57,41 @@ body{
   }  
 .btn{
     position: absolute;
-    top:57%;
+    top:61%;
     left: 41%;
     width: 120px;
 }
 .green{
     position: absolute;
-    top:57%;
-    right: 45%;
+    top:61%;
+    right: 46%;
     width: 120px;
+}
+.submit{
+  position: absolute;
+  top:61%;
+  right: 38%;
+  width: 120px;
+}
+.p{
+    font-weight: bold;
+    float: right;
+    margin-top: -55px;
+   font-size: 20pt;
+   font-family: Arial, Helvetica, sans-serif;
+ 
+}
+.h5{
+text-align: center;
+font-weight: bold; 
+}
+.rl{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
