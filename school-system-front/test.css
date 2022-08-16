@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, 	#E6E6FA, #FAFCFF);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .Cart-Container{
+       width: 48%;
+       height: 48%;
+       top: 50%;
+       left: 50%;
+       margin-left: -60px;
+       margin-top: -5px;
+       background-color: #ffffff;
+       border-radius: 20px;
+       box-shadow: 0px 25px 40px #1478c033;
+   }
+   
+   .start_btn{
+       position: absolute;
+       top: 45%;
+       left: 60%;
+       transform: translate(-50%, -50%);
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                   0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+   .homepage_btn{
+    position: absolute;
+    top: 60%;
+    left:60%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+   .start_btn button{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background:green;
+    cursor: pointer;
+}
+.homepage_btn button{
+    font-size: 25px;
+    font-weight: 450;
+    color: white;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #9370DB;
+    cursor: pointer;
+}
+
+.modal {
+    margin: auto;
+    width:35%;
+
+    padding: 10px;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  h2{
+    padding: 1rem;
+  
+    margin: 0;
+    margin-left:30%
+  }

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="quiz.css">
+    
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+  var i=0;
+  
+  <button class="signout">
+    <i class="fa fa-sign-out fa-2x active" id="signout" onclick="openhome()" aria-hidden="true"></i>
+</button>
+    <div class="Cart-Container" id="testdatas">
+        <div class="quiz">
+          <div class="p" >Time left : <span id="timer"></span></div>
+       
+   
+       <h2 id="question">Question Text</h2>
+      
+        
+          <ul>
+            <li>
+              <input type="radio" name="answer" id="a_variant" class="answer" value="a_variant">
+              <label for="a" id="a" >Answer</label>
+            </li>
+    
+            <li>
+              <input type="radio" name="answer" id="b_variant" class="answer" value="b_variant">
+              <label for="b" id="b">Answer</label>
+            </li>
+    
+            <li>
+              <input type="radio" name="answer" id="c_variant" class="answer" value="c_variant">
+              <label for="c" id="c">Answer</label>
+            </li>
+    
+            <li>
+              <input type="radio" name="answer" id="d_variant" class="answer" value="d_variant">
+              <label for="d" id="d">Answer</label>
+            </li>
+    
+          </ul>
+         
+        </div>
+        <div class="container">
+    
+        
+            <button type="button" id="btn" class="btn btn-danger btn-lg active" onclick="previousload()"->Previous</button>
+          
+          </div>
+
+          <div class="container">
+    
+        
+            <button type="button" id="previousresult" class="btn btn-danger btn-lg active" onclick="previousload()"->Previous</button>
+          
+          </div>
+          <div class="green">
+    
+        
+            <button type="button" id="green"   class="btn btn-success btn-lg active">Next</button>
+          
+          </div>    
+          <div class="submit">
+    
+        
+            <button type="button" id="submit"   class="btn btn-success btn-lg active">Submit</button>
+    
+            </button>
+          </div>   
+  
+          <div class="green">
+    
+        
+            <button type="button" id="nextresult"   class="btn btn-success btn-lg active" onclick="nextload()" >Next</button>
+          
+          </div>  
+          </div>   
+  
+         
+        
+          
+          </div>
+          
+    
+<script src="js/quiz.js"></script>
+    
+
+</body>

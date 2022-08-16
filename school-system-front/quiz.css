@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .Cart-Container{
+    width: 630px;
+       height: 59%;
+       top: 50%;
+       left: 50%;
+       margin-left: -150px;
+       margin-top: -100px;
+       background-color: #ffffff;
+       border-radius: 20px;
+       box-shadow: 0px 25px 40px #1687d933;
+       text-align: center;
+   }
+
+.signout {
+    position: absolute;
+    top: 3%;
+    left: 5%;
+  width:7%;
+  height:8%;
+  border-color: #2196F3;
+  color: dodgerblue;
+    padding: 12px 16px;
+    font-size: 16px;
+  } 
+  
+.signout:hover {
+  background: #2196F3;
+  color: white;
+}
+
+   ul{
+
+    padding: 0;
+    display: block;
+    list-style-type: none;
+   
+   
+  }
+  .quiz{
+    padding: 4rem;
+    text-align: left;
+   margin-top: 31px;
+    font-size: 23px;
+  }
+  h2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+  }
+  h3{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+  }
+  ul{
+    list-style-type: none;
+    padding: 0;
+  }
+  ul li{
+    font-size: 1.6 rem;
+    margin: 1rem 0;
+  }
+  ul li label{
+    cursor: context-menu;
+  }  
+.btn{
+    position: absolute;
+    top:61%;
+    left: 41%;
+    width: 120px;
+}
+.previousresult{
+  position: absolute;
+  top:61%;
+  left: 31%;
+  width: 130px;
+}
+.green{
+    position: absolute;
+    top:61%;
+    right: 46%;
+    width: 120px;
+}
+.nextresult{
+  position: absolute;
+  top:61%;
+  right: 46%;
+  width: 122px;
+}
+.submit{
+  position: absolute;
+  top:61%;
+  right: 38%;
+  width: 120px;
+}
+.p{
+    font-weight: bold;
+    float: right;
+    margin-top: -55px;
+   font-size: 20pt;
+   font-family: Arial, Helvetica, sans-serif;
+ 
+}
+.h5{
+text-align: center;
+font-weight: bold; 
+}
+.rl{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+p { color: red; }

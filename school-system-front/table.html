@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="table.css">
+    
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+
+    <script>
+        $(document).ready(function () {
+            $('#icon').click(function () {
+                $('ul').toggleClass('show');
+            })
+        })
+    </script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8"
+        src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
+
+    <!-- <script>
+        $(document).ready(function () {
+            $('#customers-table').DataTable();
+        });
+    </script> -->
+    <script type="text/javascript" charset="utf8"
+    src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
+
+</head>
+
+<body>
+    <nav>
+
+        <ul id="button">
+            <li><a href="profile.html"
+                    class="fa fa-home "style="font-size:20px"aria-hidden="true"> &nbsp;Home</a> </li>
+            <li><a href="table.html" class="fa fa-calendar active" style="font-size:20px"aria-hidden="true"> &nbsp;Lesson schedule</a> </li>
+            <li><a href="file:///C:/Users/Selime/Documents/GitHub/new-projects/school-system-front/test.html" class="fa fa-pencil-square-o" style="font-size:22px"aria-hidden="true"> &nbsp;Test</a> </li>
+            <li><a href="tel:55589202"  class="fa fa-phone-square  " style="font-size:20px"aria-hidden="true"> &nbsp;Contact</a> </li>
+            <li><a href="https://unec.edu.az/"class="fa fa-info-circle" style="font-size:20px"aria-hidden="true"> &nbsp;About</a> </li>
+            <li><a href="file:///C:/Users/Selime/Documents/GitHub/new-projects/school-system-front/login.html"class="fa fa-sign-out fa_custom fa-3x" style="font-size:20px"aria-hidden="true"> &nbsp;Log Out</a> </li>
+        </ul>
+        <label id="icon">
+            <i class="fas fa-bars"></i>
+        </label>
+    </nav><br>
+
+    <style>
+        table, th, td {
+         border: 1px solid black;
+         margin-left: auto;
+         margin-right: auto;
+         border-collapse: collapse;
+       }
+       table.center {
+         margin-left: auto; 
+         margin-right: auto;
+       }
+               </style>
+           <table class="center">
+               <tr>
+                 <th >Gün</th>
+                 <th>I</th>
+                 <th>II</th>
+                 <th>III</th>
+                 <th>IV</th>
+                 <th>V</th>
+               </tr>
+               <tr>
+                 <td class="bolded">08:30-09:30</td>
+                 <td> </td>
+                 <td>Internet Texnologiyaları<br>
+                   Normal Həftə<br>
+                   Seminar <br>
+                   Müəllim:A.Səadət
+       
+                 </td>
+                 <td>  Müəssisənin avtomatlaşdırılmış informasiya sistemləri<br>
+                  Alt Həftə<br>
+                   Seminar <br>
+                   Müəllim:O.Məlahət
+       
+                 </td>
+                 <td>Kompüter Qrafikası<br>
+                   Alt Həftə<br>
+             Seminar <br>
+                    Müəllim:H.Sevda
+            
+                  </td>
+               </td>
+              
+                   <td>Intellektual Texnologiyalar<br>
+                   Üst Həftə<br>
+                   Mühazirə <br>
+                   Müəllim:M.Könül
+               </td> 
+                
+               </tr>
+               <tr>
+                 <td class="bolded">09:40-10:40</td>
+                 <td>Intellektual Texnologiyalar<br>
+                 Normal Həftə<br>
+                 Mühazirə <br>
+                 Müəllim:M.Könül
+             </td>
+             <td>
+                 Informasiya İqtisadiyyatı<br>
+                 Normal Həftə<br>
+                 Seminar <br>
+                 Müəllim:İ.Vəkil
+             </td>
+             <td>Internet Texnologiyaları<br>
+               Normal Həftə<br>
+         Mühazirə <br>
+               Müəllim:A.Səadət
+       
+             </td>
+              
+                 <td>Intellektual Texnologiyalar<br>
+                 Normal Həftə<br>
+                 Mühazirə <br>
+                 Müəllim:M.Könül
+             </td>      
+             <td>Kompüter Qrafikası<br>
+               Normal Həftə<br>
+         Mühazirə <br>
+                Müəllim:H.Sevda
+        
+              </td>
+              
+               </tr>
+               <tr>
+                   <td class="bolded">10:50-11:50</td>
+                   <td></td>
+               <td>
+                   Müəssisənin avtomatlaşdırılmış informasiya sistemləri<br>
+                   Normal Həftə<br>
+                   Seminar <br>
+                   Müəllim:O.Məlahət
+               </td>
+           </td>
+           <td> </td>
+           <td>İnformasiya Təhlükəsizliyi<br>
+               Normal Həftə<br>
+           Seminar<br>
+       Müəllim:H.Sevda </td>
+       <td>İnformasiya Təhlükəsizliyi<br>
+           Normal Həftə<br>
+       Mühazirə<br>
+       Müəllim:H.Sevda </td>
+     
+                 </tr>
+               
+             </table>
+
+
+    </body>
+
+</html>

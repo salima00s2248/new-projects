@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Quiz App | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAweome CDN Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="test.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<div class="start_btn"class="btn btn-success btn-lg active"><button id="myBtn">Start Quiz</button></div><br>
+<div class="homepage_btn" onclick="goHomePage()"class="btn btn-success btn-lg active"><button>Home Page</button></div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<div class="Cart-Container">
+    
+    <div class="info-list">
+        <img src="C:\Users\Selime\Documents\GitHub\new-projects\school-system-front\сту-ент-запо-няя-вне-ответы-к-испытанию-экзамена-82349164 (1).jpg" alt="Trulli" width="410" height="333">
+    </div>
+   
+</div>
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>
+
+        <div class="info_box">
+          <h2>Rules</h2>
+            <div class="info-list">
+                <div class="info" >1. You will have only <span>10 minute</span> for all questions</div>
+                <div class="info">2. Once you select your answer, it can't be undone.</div>
+            
+                <div class="info">3. You can't exit from the Quiz while you're playing.</div>
+  <br>
+            </div>
+            <div class="container">
+            
+                <button type="button" 
+                 id="btn" onclick="goQuizPage()" class="btn btn-success active">Continue</button>
+             
+              </div>
+      </p>
+    </div>
+  
+  </div>
+<script>
+function goHomePage(){
+window.location.href='file:///C:/Users/Selime/Documents/GitHub/new-projects/school-system-front/profile.html'
+}
+function goQuizPage(){
+window.location.href='file:///C:/Users/Selime/Documents/GitHub/new-projects/school-system-front/quiz.html'
+}
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+</script>
+
+</body>
+
+</html>
